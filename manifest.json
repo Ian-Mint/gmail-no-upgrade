@@ -3,6 +3,11 @@
   "name": "Hide Gmail Upgrade Button",
   "version": "1.0",
   "description": "Hides the \"Upgrade\" button in the Gmail header.",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg",
+    "128": "icon.svg"
+  },
   "browser_specific_settings": {
     "gecko": {
       "id": "gmail-no-upgrade@ian-mint",

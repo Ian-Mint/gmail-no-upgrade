@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="26" fill="#1a1a2e"/>
+  <!-- upgrade arrow -->
+  <g fill="none" stroke="#9aa0b5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 92 V44"/>
+    <path d="M42 62 L64 40 L86 62"/>
+  </g>
+  <!-- prohibition sign -->
+  <circle cx="64" cy="64" r="46" fill="none" stroke="#e5484d" stroke-width="11"/>
+  <line x1="32" y1="32" x2="96" y2="96" stroke="#e5484d" stroke-width="11" stroke-linecap="round"/>
+</svg>
