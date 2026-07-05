@@ -5,7 +5,7 @@
   "description": "Hides the \"Upgrade\" button in the Gmail header.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "hide-gmail-upgrade@ian.pegg",
+      "id": "gmail-no-upgrade@ian-mint",
       "data_collection_permissions": {
         "required": ["none"]
       }
