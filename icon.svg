@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <rect width="128" height="128" rx="26" fill="#1a1a2e"/>
-  <!-- upgrade arrow -->
-  <g fill="none" stroke="#9aa0b5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 92 V44"/>
-    <path d="M42 62 L64 40 L86 62"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f6fe0"/>
+      <stop offset="1" stop-color="#12408f"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="url(#bg)"/>
+  <g transform="translate(64 64) scale(1.22) translate(-64 -64)">
+    <!-- the Upgrade pill button -->
+    <rect x="16" y="46" width="96" height="36" rx="18" fill="#0d1b38"/>
+    <text x="64" y="65" text-anchor="middle" dominant-baseline="middle"
+          font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700"
+          fill="#ffffff">Upgrade</text>
+    <!-- prohibition sign -->
+    <circle cx="64" cy="64" r="40" fill="none" stroke="#e5484d" stroke-width="8"/>
+    <line x1="36" y1="36" x2="92" y2="92" stroke="#e5484d" stroke-width="8" stroke-linecap="round"/>
   </g>
-  <!-- prohibition sign -->
-  <circle cx="64" cy="64" r="46" fill="none" stroke="#e5484d" stroke-width="11"/>
-  <line x1="32" y1="32" x2="96" y2="96" stroke="#e5484d" stroke-width="11" stroke-linecap="round"/>
 </svg>
