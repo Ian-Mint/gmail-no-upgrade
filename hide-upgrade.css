@@ -1,0 +1,6 @@
+/* Gmail's header "Upgrade" button. Class names are obfuscated and rotate,
+   so match on stable attributes instead. */
+[data-pep-id="global-pep-gmail"],
+[data-action-behavior*="upgrade_ogb"] {
+  display: none !important;
+}
